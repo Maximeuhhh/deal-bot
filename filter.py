@@ -1,5 +1,4 @@
-MIN_DISCOUNT_PERCENT = 20
+MIN_TEMPERATURE = 150  # Seulement les deals avec 150° ou plus
 
 def is_good_deal(deal):
-    discount = deal.get("discount_percent", 0)
-    return discount >= MIN_DISCOUNT_PERCENT
+    return deal.get("temperature", 0) >= MIN_TEMPERATURE
