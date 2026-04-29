@@ -1,5 +1,5 @@
-MIN_DISCOUNT_PERCENT = 40
-MIN_TEMPERATURE = 100
+MIN_DISCOUNT_PERCENT = 10
+MIN_TEMPERATURE = 10
 
 def is_good_deal(deal):
     discount = deal.get("discount_percent", 0)
