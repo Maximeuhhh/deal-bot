@@ -1,4 +1,4 @@
-MIN_DISCOUNT_PERCENT = 20
+MIN_DISCOUNT_PERCENT = 2
 
 def is_good_deal(deal):
     discount = deal.get("discount_percent", 0)
